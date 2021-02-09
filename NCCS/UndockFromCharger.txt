@@ -1,0 +1,86 @@
+{
+    "mission_id": 20,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "",
+            "gui": {
+                "x": 460,
+                "y": 203
+            },
+            "name": "undock",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "undock_status == 2",
+                    "id": 2
+                }
+            ],
+            "rosparams": {
+                "align_behaviour/m_undock_period": 100,
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 1,
+            "type": 11
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 465,
+                "y": 320
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 2,
+            "type": -3
+        }
+    ],
+    "start_id": 1
+}

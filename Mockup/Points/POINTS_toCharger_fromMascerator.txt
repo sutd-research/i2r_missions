@@ -1,0 +1,79 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 1070.948863636364,
+               "map_y" : 1775.2528409090908,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.96197661025601144,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.2731318387159466,
+                  "nav_map_name" : "SUTD_CGH_Lab",
+                  "nav_pose_x" : -0.88,
+                  "nav_pose_y" : 0.47999999999999998,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1104.002840909091,
+               "map_y" : 1796.6107954545455,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 1,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0,
+                  "nav_map_name" : "SUTD_CGH_Lab",
+                  "nav_pose_x" : -0.20000000000000001,
+                  "nav_pose_y" : 0.059999999999999998,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : -1
+      }
+   ],
+   "repeat_count" : 0
+}
