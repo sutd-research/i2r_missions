@@ -1,0 +1,86 @@
+{
+    "mission_id": 20,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "",
+            "gui": {
+                "x": 832,
+                "y": 644
+            },
+            "name": "gripper_actuation",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "gripper_actuation_status == 2",
+                    "id": 2
+                }
+            ],
+            "rosparams": {
+                "gripper_command": 1,
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "Gripper Extended Releasing",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 1,
+            "type": 10007
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 831,
+                "y": 760
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 2,
+            "type": -3
+        }
+    ],
+    "start_id": 1
+}

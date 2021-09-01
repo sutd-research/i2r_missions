@@ -1,0 +1,173 @@
+{
+    "mission_id": 20,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "",
+            "gui": {
+                "x": 862,
+                "y": 678
+            },
+            "name": "line_following",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == 2",
+                    "id": 6
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -1",
+                    "id": 8
+                }
+            ],
+            "rosparams": {
+                "mission_data": "{\"all_goals\":[],\"exit_id\":-3,\"goal\":{\"goal_data\":{\"description\":\"\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"\",\"nav_pose_x\":0,\"nav_pose_y\":0,\"nav_pose_z\":0},\"goal_id\":-1},\"points\":[{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":0,\"map_x\":1070.8741496598639,\"map_y\":1283.2244897959183,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 0\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-19.44,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":1,\"map_x\":1083.0374149659865,\"map_y\":1282.2108843537414,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 1\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-19.18,\"nav_pose_y\":3.2800000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":2,\"map_x\":1094.6938775510205,\"map_y\":1282.2108843537414,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 2\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-18.96,\"nav_pose_y\":3.2800000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":3,\"map_x\":1105.3367346938776,\"map_y\":1283.7312925170068,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 3\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-18.740000000000002,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":4,\"map_x\":1115.9795918367347,\"map_y\":1282.2108843537414,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 4\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-18.54,\"nav_pose_y\":3.2800000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":5,\"map_x\":1127.1292517006802,\"map_y\":1283.2244897959183,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 5\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-18.3,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":6,\"map_x\":1135.7448979591836,\"map_y\":1283.2244897959183,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 6\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-18.14,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":7,\"map_x\":1145.8809523809523,\"map_y\":1283.7312925170068,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 7\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-17.94,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":8,\"map_x\":1154.496598639456,\"map_y\":1283.7312925170068,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 8\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-17.76,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":9,\"map_x\":1165.139455782313,\"map_y\":1285.7585034013605,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 9\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-17.54,\"nav_pose_y\":3.22,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":10,\"map_x\":1175.7823129251701,\"map_y\":1283.7312925170068,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 10\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-17.34,\"nav_pose_y\":3.2600000000000002,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":11,\"map_x\":1188.9591836734694,\"map_y\":1287.2789115646258,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 11\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-17.080000000000002,\"nav_pose_y\":3.18,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":12,\"map_x\":1199.6020408163265,\"map_y\":1288.799319727891,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 12\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-16.86,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":13,\"map_x\":1210.2448979591836,\"map_y\":1288.799319727891,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 13\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-16.64,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":14,\"map_x\":1220.3809523809523,\"map_y\":1290.8265306122448,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 14\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-16.44,\"nav_pose_y\":3.12,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":15,\"map_x\":1231.0238095238096,\"map_y\":1288.799319727891,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 15\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-16.22,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":16,\"map_x\":1242.1734693877552,\"map_y\":1289.812925170068,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 16\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-16,\"nav_pose_y\":3.14,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":17,\"map_x\":1250.2823129251701,\"map_y\":1288.799319727891,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 17\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-15.84,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":18,\"map_x\":1260.9251700680272,\"map_y\":1288.799319727891,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 18\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-15.64,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":19,\"map_x\":1273.0884353741496,\"map_y\":1290.8265306122448,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 19\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-15.38,\"nav_pose_y\":3.12,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":20,\"map_x\":1281.704081632653,\"map_y\":1287.2789115646258,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 20\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-15.22,\"nav_pose_y\":3.18,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":21,\"map_x\":1293.8673469387754,\"map_y\":1285.7585034013605,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 21\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-14.98,\"nav_pose_y\":3.22,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":22,\"map_x\":1308.0578231292518,\"map_y\":1288.2925170068027,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 22\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-14.68,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true},{\"angle_accuracy\":0.10000001192092896,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":23,\"map_x\":1314.6462585034014,\"map_y\":1288.799319727891,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 23\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"NCCS_map\",\"nav_pose_x\":-14.56,\"nav_pose_y\":3.16,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"using_custom_orientation\":true}],\"repeat_count\":0,\"start_id\":-1}",
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 5,
+            "type": 10001
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 863,
+                "y": 755
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 7
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 1
+            },
+            "submission_uid": 6,
+            "type": 8
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 863,
+                "y": 826
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 7,
+            "type": -3
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 603,
+                "y": 676
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 5
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "Robot path blocked. Please give way",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 5
+            },
+            "submission_uid": 8,
+            "type": 8
+        }
+    ],
+    "start_id": 5
+}

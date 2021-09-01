@@ -1,0 +1,10 @@
+Replace command processor header and cpp
+Build i2r plugin
+Copy mission files folder
+Edit MQTT address
+Check WIFI strength
+Edit default mission files location
+Set top camera exposure everytime
+
+Try exposure with udev rule
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0b05", ATTRS{idProduct}=="9d08", ATTRS{serial}=="0001", SYMLINK+="ROGCam", RUN+="v4l2-ctl -d /dev/ROGCam -c exposure_auto=1 && v4l2-ctl -d /dev/ROGCam -c exposure_absolute=50"

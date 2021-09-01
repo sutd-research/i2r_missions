@@ -1,0 +1,53 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 1988.5376712328764,
+               "map_y" : 1437.9520547945203,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0.70709999999999995,
+                  "nav_map_name" : "NCCS_map",
+                  "nav_pose_x" : -1.0800000000000001,
+                  "nav_pose_y" : 0.17999999999999999,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : -1
+      }
+   ],
+   "repeat_count" : 0
+}

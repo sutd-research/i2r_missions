@@ -15,6 +15,21 @@
                     "and_condition": true,
                     "condition": "line_following_status == 2",
                     "id": 6
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -1",
+                    "id": 8
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -2",
+                    "id": 10
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -1",
+                    "id": 11
                 }
             ],
             "rosparams": {
@@ -121,6 +136,129 @@
             },
             "submission_uid": 7,
             "type": -3
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 622,
+                "y": 707
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 5
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "Robot path blocked. Please give way",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 5
+            },
+            "submission_uid": 8,
+            "type": 8
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 615,
+                "y": 806
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 7
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": -1
+            },
+            "submission_uid": 10,
+            "type": 8
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 625,
+                "y": 925
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 7
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": -1
+            },
+            "submission_uid": 11,
+            "type": 8
         }
     ],
     "start_id": 5

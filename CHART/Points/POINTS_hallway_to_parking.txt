@@ -1,0 +1,79 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.29999999999999999,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 863.59183673469386,
+               "map_y" : 739.93197278911566,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 2,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.70709999999999995,
+                  "nav_map_name" : "CHART_map",
+                  "nav_pose_x" : -5.6600000000000001,
+                  "nav_pose_y" : 3.2600000000000002,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.25,
+               "using_custom_orientation" : true
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : -1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 866.12585034013603,
+               "map_y" : 707.49659863945578,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0.70709999999999995,
+                  "nav_map_name" : "CHART_map",
+                  "nav_pose_x" : -5.6000000000000005,
+                  "nav_pose_y" : 3.8999999999999999,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : 0
+      }
+   ],
+   "repeat_count" : 0
+}

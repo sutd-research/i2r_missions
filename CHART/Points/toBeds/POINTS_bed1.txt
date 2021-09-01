@@ -1,0 +1,105 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 863.08503401360542,
+               "map_y" : 756.65646258503398,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.99899310278981124,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0.044864023207751048,
+                  "nav_map_name" : "CHART_map",
+                  "nav_pose_x" : -5.6600000000000001,
+                  "nav_pose_y" : 2.9199999999999999,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1363.8061224489793,
+               "map_y" : 711.55102040816325,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0.70709999999999995,
+                  "nav_map_name" : "CHART_map",
+                  "nav_pose_x" : 4.3399999999999999,
+                  "nav_pose_y" : 3.8200000000000003,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : -1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 2,
+               "map_x" : 1363.9328231292518,
+               "map_y" : 740.56547619047615,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : -1,
+               "pose" : {
+                  "description" : "Point 2",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.70709999999999995,
+                  "nav_map_name" : "CHART_map",
+                  "nav_pose_x" : 4.3399999999999999,
+                  "nav_pose_y" : 3.2400000000000002,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : 0
+      }
+   ],
+   "repeat_count" : 0
+}

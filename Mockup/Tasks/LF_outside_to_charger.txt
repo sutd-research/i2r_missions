@@ -15,6 +15,11 @@
                     "and_condition": true,
                     "condition": "line_following_status == 2",
                     "id": 9
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -1",
+                    "id": 10
                 }
             ],
             "rosparams": {
@@ -134,6 +139,11 @@
                     "and_condition": true,
                     "condition": "line_following_status == 2",
                     "id": 6
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -1",
+                    "id": 11
                 }
             ],
             "rosparams": {
@@ -203,6 +213,88 @@
                 "timeout_time": 1
             },
             "submission_uid": 9,
+            "type": 8
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 630,
+                "y": 507
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 5
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "Robot path blocked. Please give way",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 5
+            },
+            "submission_uid": 10,
+            "type": 8
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 641,
+                "y": 702
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 8
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "Robot path blocked. Please give way",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 5
+            },
+            "submission_uid": 11,
             "type": 8
         }
     ],

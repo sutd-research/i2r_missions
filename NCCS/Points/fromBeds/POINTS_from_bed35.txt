@@ -1,0 +1,131 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 0,
+               "map_x" : 1349.1088435374149,
+               "map_y" : 1267.0068027210884,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0.99998866283847898,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.0047617428018424052,
+                  "nav_map_name" : "NCCS_map",
+                  "nav_pose_x" : -13.859999999999999,
+                  "nav_pose_y" : 3.5800000000000001,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1454.5238095238096,
+               "map_y" : 1268.5272108843537,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.89554321461725817,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.44497455068013436,
+                  "nav_map_name" : "NCCS_map",
+                  "nav_pose_x" : -11.76,
+                  "nav_pose_y" : 3.5600000000000001,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 2,
+               "map_x" : 1623.2891156462586,
+               "map_y" : 1491.5204081632653,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 2",
+                  "nav_angle_w" : 0.98964592473985047,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.14353028825236291,
+                  "nav_map_name" : "NCCS_map",
+                  "nav_pose_x" : -8.3800000000000008,
+                  "nav_pose_y" : -0.90000000000000002,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 3,
+               "map_x" : 1731.361177028951,
+               "map_y" : 1523.7030533143493,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 3",
+                  "nav_angle_w" : 1,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0,
+                  "nav_map_name" : "NCCS_map",
+                  "nav_pose_x" : -6.2199999999999998,
+                  "nav_pose_y" : -1.54,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : -1
+      }
+   ],
+   "repeat_count" : 0
+}
