@@ -1,0 +1,79 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : 2,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "points" : [
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1242.4563758389261,
+               "map_y" : 2699.2516778523491,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 0.70709999999999995,
+                  "nav_map_name" : "CGH_Ward45_map",
+                  "nav_pose_x" : 4.4800000000000004,
+                  "nav_pose_y" : -2.6600000000000001,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            },
+            {
+               "angle_accuracy" : 0.10000001192092896,
+               "drive_forward" : -1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 2,
+               "map_x" : 1243.469798657718,
+               "map_y" : 2748.4026845637582,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 2",
+                  "nav_angle_w" : 0.70709999999999995,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.70709999999999995,
+                  "nav_map_name" : "CGH_Ward45_map",
+                  "nav_pose_x" : 4.5,
+                  "nav_pose_y" : -3.6400000000000001,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000001192092896,
+               "using_custom_orientation" : true
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : 2
+      }
+   ],
+   "repeat_count" : 0
+}

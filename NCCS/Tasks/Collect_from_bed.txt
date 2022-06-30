@@ -14,7 +14,7 @@
                 {
                     "and_condition": true,
                     "condition": "visual_marker_dock_status == 2",
-                    "id": 3
+                    "id": 4
                 }
             ],
             "rosparams": {
@@ -51,48 +51,6 @@
             },
             "submission_uid": 1,
             "type": 10006
-        },
-        {
-            "description": "",
-            "gui": {
-                "x": 902,
-                "y": 318
-            },
-            "name": "gripper_actuation",
-            "next": [
-                {
-                    "and_condition": true,
-                    "condition": "gripper_actuation_status == 2",
-                    "id": 4
-                }
-            ],
-            "rosparams": {
-                "gripper_command": 0,
-                "retry_count": 0,
-                "retry_seconds": 0,
-                "rosparam_write_count_max": -1,
-                "tablettap_but_ids": [
-                    -2,
-                    -3,
-                    1,
-                    2,
-                    3
-                ],
-                "tablettap_but_names": [
-                    "Code Blue",
-                    "Code Red",
-                    "Resume",
-                    "Follow",
-                    "Continue"
-                ],
-                "tablettap_msg_timeout": 3,
-                "tablettap_print_tts": false,
-                "tablettap_tts": "",
-                "timeout_condition": "",
-                "timeout_time": 0
-            },
-            "submission_uid": 3,
-            "type": 10007
         },
         {
             "description": "",

@@ -1,0 +1,105 @@
+{
+    "auto_inject_undock": true,
+    "mission_id": 20,
+    "mission_repeat_count": 0,
+    "mission_version": 1,
+    "missions": [
+        {
+            "description": "",
+            "gui": {
+                "x": 756,
+                "y": 327
+            },
+            "name": "dock",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "dock_status == 2",
+                    "id": 2
+                }
+            ],
+            "rosparams": {
+                "align_behaviour/m_LNd": 0,
+                "align_behaviour/m_accuracy_tolerance": 0.03,
+                "align_behaviour/m_align3_tolerance": 0.035,
+                "align_behaviour/m_backward_timer": 80,
+                "align_behaviour/m_compensate_y_constant": 0,
+                "align_behaviour/m_docking_stopping_range": 0.2,
+                "align_behaviour/m_forward_timer": 100,
+                "align_behaviour/m_last_approach_dostate": 8,
+                "align_behaviour/m_last_forward": 0.03,
+                "align_behaviour/m_length_max": 0.7,
+                "align_behaviour/m_length_min": 0.5,
+                "align_behaviour/m_line_type": 0,
+                "align_behaviour/m_retry_allowed": 1,
+                "align_behaviour/m_search_area_max_init": 3,
+                "align_behaviour/m_undock_period": 60,
+                "align_behaviour/m_xFar": 0.8,
+                "align_behaviour/m_xNear": 0.4,
+                "align_behaviour/m_yFar": 0,
+                "align_behaviour/m_yNear": 0,
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 1,
+            "type": 2
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 757,
+                "y": 478
+            },
+            "name": "completed",
+            "next": [
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "",
+                "timeout_condition": "",
+                "timeout_time": 0
+            },
+            "submission_uid": 2,
+            "type": -3
+        }
+    ],
+    "start_id": 1
+}
