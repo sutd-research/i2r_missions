@@ -1,0 +1,119 @@
+{
+   "groups" : [
+      {
+         "all_goals" : [],
+         "exit_id" : -1,
+         "goal" : {
+            "goal_data" : {
+               "description" : "",
+               "nav_angle_w" : 1,
+               "nav_angle_x" : 0,
+               "nav_angle_y" : 0,
+               "nav_angle_z" : 0,
+               "nav_map_name" : "",
+               "nav_pose_x" : 0,
+               "nav_pose_y" : 0,
+               "nav_pose_z" : 0
+            },
+            "goal_id" : -1
+         },
+         "line_name" : "generic_line",
+         "line_type" : 0,
+         "points" : [
+            {
+               "angle_accuracy" : 0.30000001192092896,
+               "compliance_value" : 0,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
+               "map_x" : 1362.8856304985338,
+               "map_y" : 1908.6451612903229,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 2,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 1",
+                  "nav_angle_w" : 0.70710678118654757,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.70710678118654746,
+                  "nav_map_name" : "CGH_Ward45_map",
+                  "nav_pose_x" : -2.7200000000000002,
+                  "nav_pose_y" : -0.28000000000000003,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.30000001192092896,
+               "safety_mode" : 1,
+               "steering_mode" : "Differential",
+               "time_limit_ms" : -1,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.30000001192092896,
+               "compliance_value" : 0,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 2,
+               "map_x" : 1362.8856304985336,
+               "map_y" : 1964.1290322580644,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 2,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 2",
+                  "nav_angle_w" : 0.74666625279139054,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.66519884767072723,
+                  "nav_map_name" : "CGH_Ward45_map",
+                  "nav_pose_x" : -2.7200000000000002,
+                  "nav_pose_y" : -1.4000000000000001,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.30000001192092896,
+               "safety_mode" : 1,
+               "steering_mode" : "Differential",
+               "time_limit_ms" : -1,
+               "using_custom_orientation" : false
+            },
+            {
+               "angle_accuracy" : 0.30000001192092896,
+               "compliance_value" : 0,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 3,
+               "map_x" : 1373.9824046920821,
+               "map_y" : 2059.9648093841643,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 1,
+               "nav_mode" : 2,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 3",
+                  "nav_angle_w" : 0.74967817581586582,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : -0.66180256323574016,
+                  "nav_map_name" : "CGH_Ward45_map",
+                  "nav_pose_x" : -2.5,
+                  "nav_pose_y" : -3.3000000000000003,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.30000001192092896,
+               "safety_mode" : 1,
+               "steering_mode" : "Differential",
+               "time_limit_ms" : -1,
+               "using_custom_orientation" : false
+            }
+         ],
+         "repeat_count" : 0,
+         "start_id" : -1
+      }
+   ],
+   "repeat_count" : 0
+}

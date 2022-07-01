@@ -1,0 +1,11 @@
+
+
+const QString DOCK_TO_CHARGER = "Dock";
+const QString UNDOCK_FROM_CHARGER = "Undock";
+
+const QString LF_CHARGER_TO_HALLWAY = "LF_charger_to_hallway";
+const QString LF_HALLWAY_TO_CHARGER = "LF_hallway_to_charger";
+
+const QString LF_HALLWAY_TO_CLEANING_ROOM = "LF_hallway_to_cleaning_room";
+const QString LF_CLEANING_ROOM_TO_HALLWAY = "LF_cleaning_room_to_hallway";
+
