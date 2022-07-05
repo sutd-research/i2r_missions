@@ -17,16 +17,43 @@
             },
             "goal_id" : -1
          },
-         "line_name" : "generic_line",
-         "line_type" : 0,
          "points" : [
             {
                "angle_accuracy" : 0.10000001192092896,
-               "compliance_value" : 0,
                "drive_forward" : 1,
                "group_id" : 0,
                "horn_mode" : -1,
                "id" : 0,
+               "map_x" : 1565.738255033556,
+               "map_y" : 1550.5369127516772,
+               "nav_max_turn" : 0.5,
+               "nav_max_vel" : 0.5,
+               "nav_mode" : 1,
+               "patience" : 1,
+               "pose" : {
+                  "description" : "Point 0",
+                  "nav_angle_w" : 0,
+                  "nav_angle_x" : 0,
+                  "nav_angle_y" : 0,
+                  "nav_angle_z" : 1,
+                  "nav_map_name" : "CGH_Ward45_map",
+                  "nav_pose_x" : 1.3400000000000001,
+                  "nav_pose_y" : 6.8799999999999999,
+                  "nav_pose_z" : 0
+               },
+               "position_accuracy" : 0.10000000000000001,
+               "using_custom_orientation" : false,
+	       "compliance_value" : 0,
+	       "safety_mode" : 0,
+               "steering_mode" : "Differential",
+               "time_limit_ms" : -1
+            },
+            {
+               "angle_accuracy" : 0.29999999999999999,
+               "drive_forward" : 1,
+               "group_id" : 0,
+               "horn_mode" : -1,
+               "id" : 1,
                "map_x" : 1546.989932885906,
                "map_y" : 1834.8020134228188,
                "nav_max_turn" : 0.5,
@@ -34,7 +61,7 @@
                "nav_mode" : 1,
                "patience" : 1,
                "pose" : {
-                  "description" : "Point 0",
+                  "description" : "Point 1",
                   "nav_angle_w" : 0.70709999999999995,
                   "nav_angle_x" : 0,
                   "nav_angle_y" : 0,
@@ -45,10 +72,11 @@
                   "nav_pose_z" : 0
                },
                "position_accuracy" : 0.10000001192092896,
-               "safety_mode" : 0,
+               "using_custom_orientation" : true,
+	       "compliance_value" : 0,
+	       "safety_mode" : 0,
                "steering_mode" : "Differential",
-               "time_limit_ms" : -1,
-               "using_custom_orientation" : true
+               "time_limit_ms" : -1
             }
          ],
          "repeat_count" : 0,

@@ -5,21 +5,26 @@
     "mission_version": 1,
     "missions": [
         {
-            "description": "",
+            "description": "generic_line",
             "gui": {
-                "x": 562,
-                "y": 111
+                "x": 862,
+                "y": 678
             },
-            "name": "undock",
+            "name": "line_following",
             "next": [
                 {
                     "and_condition": true,
-                    "condition": "undock_status == 2",
-                    "id": 2
+                    "condition": "line_following_status == 2",
+                    "id": 6
+                },
+                {
+                    "and_condition": true,
+                    "condition": "line_following_status == -1",
+                    "id": 8
                 }
             ],
             "rosparams": {
-                "align_behaviour/m_undock_period": 20,
+                "mission_data": "{\"all_goals\":[],\"exit_id\":-1,\"goal\":{\"goal_data\":{\"description\":\"\",\"nav_angle_w\":1,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":0,\"nav_map_name\":\"\",\"nav_pose_x\":0,\"nav_pose_y\":0,\"nav_pose_z\":0},\"goal_id\":-1},\"line_name\":\"generic_line\",\"line_type\":0,\"points\":[{\"angle_accuracy\":0.10000001192092896,\"compliance_value\":0,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":0,\"map_x\":1561.6845637583885,\"map_y\":1523.681208053691,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 0\",\"nav_angle_w\":0.6898639326074867,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.7239390544012203,\"nav_map_name\":\"CGH_Ward45_map\",\"nav_pose_x\":1.26,\"nav_pose_y\":7.42,\"nav_pose_z\":0},\"position_accuracy\":0.1,\"safety_mode\":0,\"steering_mode\":\"Differential\",\"time_limit_ms\":-1,\"using_custom_orientation\":false},{\"angle_accuracy\":0.3,\"compliance_value\":0,\"drive_forward\":1,\"group_id\":0,\"horn_mode\":-1,\"id\":1,\"map_x\":1546.989932885906,\"map_y\":1834.8020134228188,\"nav_max_turn\":0.5,\"nav_max_vel\":0.5,\"nav_mode\":1,\"patience\":1,\"pose\":{\"description\":\"Point 1\",\"nav_angle_w\":0.7071,\"nav_angle_x\":0,\"nav_angle_y\":0,\"nav_angle_z\":-0.7071,\"nav_map_name\":\"CGH_Ward45_map\",\"nav_pose_x\":0.96,\"nav_pose_y\":1.2,\"nav_pose_z\":0},\"position_accuracy\":0.10000001192092896,\"safety_mode\":0,\"steering_mode\":\"Differential\",\"time_limit_ms\":-1,\"using_custom_orientation\":true}],\"repeat_count\":0,\"start_id\":-1}",
                 "retry_count": 0,
                 "retry_seconds": 0,
                 "rosparam_write_count_max": -1,
@@ -43,21 +48,21 @@
                 "timeout_condition": "",
                 "timeout_time": 0
             },
-            "submission_uid": 1,
-            "type": 11
+            "submission_uid": 5,
+            "type": 10001
         },
         {
             "description": "",
             "gui": {
-                "x": 562,
-                "y": 218
+                "x": 863,
+                "y": 755
             },
             "name": "idle",
             "next": [
                 {
                     "and_condition": true,
                     "condition": "idle_status == 2",
-                    "id": 3
+                    "id": 7
                 }
             ],
             "rosparams": {
@@ -84,57 +89,14 @@
                 "timeout_condition": "idle_status == 2",
                 "timeout_time": 1
             },
-            "submission_uid": 2,
+            "submission_uid": 6,
             "type": 8
         },
         {
             "description": "",
             "gui": {
-                "x": 563,
-                "y": 325
-            },
-            "name": "i2r_safety_control",
-            "next": [
-                {
-                    "and_condition": true,
-                    "condition": "i2r_safety_control_status == 2",
-                    "id": 4
-                }
-            ],
-            "rosparams": {
-                "enable": false,
-                "newkey1": 0,
-                "retry_count": 0,
-                "retry_seconds": 0,
-                "rosparam_write_count_max": -1,
-                "tablettap_but_ids": [
-                    -2,
-                    -3,
-                    1,
-                    2,
-                    3
-                ],
-                "tablettap_but_names": [
-                    "Code Blue",
-                    "Code Red",
-                    "Resume",
-                    "Follow",
-                    "Continue"
-                ],
-                "tablettap_msg_timeout": 3,
-                "tablettap_print_tts": false,
-                "tablettap_tts": "",
-                "timeout_condition": "",
-                "timeout_time": 0
-            },
-            "submission_uid": 3,
-            "type": 10010
-        },
-        {
-            "description": "",
-            "gui": {
-                "x": 563,
-                "y": 442
+                "x": 863,
+                "y": 826
             },
             "name": "completed",
             "next": [
@@ -163,9 +125,50 @@
                 "timeout_condition": "",
                 "timeout_time": 0
             },
-            "submission_uid": 4,
+            "submission_uid": 7,
             "type": -3
+        },
+        {
+            "description": "",
+            "gui": {
+                "x": 622,
+                "y": 707
+            },
+            "name": "idle",
+            "next": [
+                {
+                    "and_condition": true,
+                    "condition": "idle_status == 2",
+                    "id": 5
+                }
+            ],
+            "rosparams": {
+                "retry_count": 0,
+                "retry_seconds": 0,
+                "rosparam_write_count_max": -1,
+                "tablettap_but_ids": [
+                    -2,
+                    -3,
+                    1,
+                    2,
+                    3
+                ],
+                "tablettap_but_names": [
+                    "Code Blue",
+                    "Code Red",
+                    "Resume",
+                    "Follow",
+                    "Continue"
+                ],
+                "tablettap_msg_timeout": 3,
+                "tablettap_print_tts": false,
+                "tablettap_tts": "Robot path blocked. Please give way",
+                "timeout_condition": "idle_status == 2",
+                "timeout_time": 5
+            },
+            "submission_uid": 8,
+            "type": 8
         }
     ],
-    "start_id": 1
+    "start_id": 5
 }

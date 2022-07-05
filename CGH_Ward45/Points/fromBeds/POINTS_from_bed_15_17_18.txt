@@ -38,7 +38,7 @@
                   "nav_angle_w" : 0.70709999999999995,
                   "nav_angle_x" : 0,
                   "nav_angle_y" : 0,
-                  "nav_angle_z" : 0.70709999999999995,
+                  "nav_angle_z" : -0.70709999999999995,
                   "nav_map_name" : "CGH_Ward45_map",
                   "nav_pose_x" : 0.95999999999999996,
                   "nav_pose_y" : 1.2,
@@ -48,7 +48,7 @@
                "safety_mode" : 0,
                "steering_mode" : "Differential",
                "time_limit_ms" : -1,
-               "using_custom_orientation" : false
+               "using_custom_orientation" : true
             }
          ],
          "repeat_count" : 0,
